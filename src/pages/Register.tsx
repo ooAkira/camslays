@@ -1,4 +1,6 @@
 import Add from "../img/addAvatar.png";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../firebase";
 
 const Register = () => {
   const handleSubmit = (e:any) => {
