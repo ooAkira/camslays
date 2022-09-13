@@ -3,7 +3,10 @@ import Add from "../img/addAvatar.png";
 const Register = () => {
   const handleSubmit = (e:any) => {
     e.preventDefault()
-    
+    const displayName = e.target[0].value
+    const email = e.target[0].value
+    const password = e.target[0].value
+    const file = e.target[0].value
   }
   return (
     <div className="formContainer">
