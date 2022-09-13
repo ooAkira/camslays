@@ -1,12 +1,16 @@
 import Add from "../img/addAvatar.png";
 
 const Register = () => {
+  const handleSubmit = (e:any) => {
+    e.preventDefault()
+    
+  }
   return (
     <div className="formContainer">
         <div className="formWrapper">
           <span className="logo">Camslays</span>
           <span className="title">Register</span>
-          <form>
+          <form onSubmit={handleSubmit}>
             <input type="text" placeholder="display name"/>
             <input type="email" placeholder="name"/>
             <input type="password" placeholder="password"/>
