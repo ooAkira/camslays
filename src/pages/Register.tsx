@@ -49,7 +49,8 @@ const Register = () => {
           });
         }
       );
-    }catch(err){
+
+    } catch(err){
       setErr(true);
     }
   };
